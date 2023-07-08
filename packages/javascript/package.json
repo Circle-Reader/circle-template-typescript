@@ -1,6 +1,6 @@
 {
   "name": "circle-template-javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "runAt": "render_done",
   "author": "Ranhe <wenguang.fe@gmail.com> (https://circlereader.com/)",
