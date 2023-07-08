@@ -9,13 +9,11 @@ module.exports = {
   target: 'web',
   devtool: false,
   externals: {
-    antd: 'antd',
     react: 'React',
     'react-dom': 'ReactDOM',
     classnames: 'classnames',
-    '@ant-design/cssinjs': 'AntDesignCssinjs',
+    'circle-cts': 'circleCts',
   },
-  entry: path.join(__dirname, `../src/.circle/autoConfig/entry.js`),
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, '../dist'),
