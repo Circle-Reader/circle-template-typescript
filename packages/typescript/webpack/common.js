@@ -12,6 +12,7 @@ module.exports = {
     antd: 'Antd',
     react: 'React',
     dayjs: 'dayjs',
+    'react-dom': 'ReactDOM',
     classnames: 'classNames',
     '@ant-design/icons-svg': 'AntDesignSvg',
     '@ant-design/colors': 'AntDesignColors',
@@ -56,8 +57,8 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        use: ['file-loader'],
+        test: /\.(svg|png|jpe?g|gif|svg)$/i,
+        type: 'asset/inline',
       },
     ],
   },

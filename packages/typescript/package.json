@@ -1,6 +1,6 @@
 {
   "name": "circle-template-typescript",
-  "version": "1.0.3-6",
+  "version": "1.0.4",
   "license": "MIT",
   "runAt": "render_done",
   "author": "Ranhe <wenguang.fe@gmail.com> (https://circlereader.com/)",
@@ -20,7 +20,7 @@
     "classnames": "^2.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "circle-ihk": "^1.0.0-5"
+    "circle-ihk": "^1.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
